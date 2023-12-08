@@ -26,7 +26,7 @@ const aTag = document.createElement('a');
 const imgTag = document.createElement('img');
 aTag.setAttribute('href', 'https://www.facebook.com/groups/aigcguild.ntou');
 aTag.setAttribute('target', '_blank');
-imgTag.setAttribute('src', '圖片網址連結');
+imgTag.setAttribute('src', 'https://github.com/rkuo2000/NTOU-AIGC-Guild/blob/main/images/SeaArt_Tavern.png?raw=true');
 aTag.appendChild(imgTag);
 document.querySelector("body").appendChild(aTag);
 
