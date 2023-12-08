@@ -22,13 +22,7 @@ class creEle{
     }
 }
 
-const aTag = document.createElement('a');
-const imgTag = document.createElement('img');
-aTag.setAttribute('href', 'https://www.facebook.com/groups/aigcguild.ntou');
-aTag.setAttribute('target', '_blank');
-imgTag.setAttribute('src', 'https://github.com/rkuo2000/NTOU-AIGC-Guild/blob/main/images/SeaArt_Tavern.png?raw=true');
-aTag.appendChild(imgTag);
-document.querySelector("body").appendChild(aTag);
+
 
 const h1 = new creEle('h1');
 h1.setText('我在生成式AI冒險者公會等你，來跟我一起進化吧~');
